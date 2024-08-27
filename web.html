@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeForge - Website where your build come true</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(180, 180, 180);
+        }
+        header {
+            background-color: white;
+            color: black; /* Changed text color to black */
+            padding: 10px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 200px;
+            margin-right: 100px;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: row; /* Changed to row layout */
+            width: 100%;
+        }
+        .left-panel {
+            background-color: #7a7a7a;
+            width: 12%;
+            padding: 5px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .left-panel2 {
+            background-color: rgb(180, 180, 180);
+            width: 100%; /* Full width for both panels */
+            padding: 5px;
+        }
+        .main-content {
+            background-color: rgb(180, 180, 180);
+            flex-grow: 1;
+            padding: 5px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="C:\Users\z0048c3k\Downloads\logo.jfif" alt="Logo"></a>
+        <h1><a href="#">BikeForge</a></h1>
+    </header>
+    <div class="main-container">
+        <div class="left-panel">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://tech.ridefox.com/bike/search/serial/839020-0151-t" target="_blank">Float DPS Owner ID</a></li>
+                <li><a href="https://tech.ridefox.com/bike/parts-drawings/1073/float-dps-part-information" target="_blank">Float DPS Parts & drawings</a></li>
+                <li><a href="https://mtbclassicparts.com/en/products/service-set-valving-assy-2018-float-dps-n-r-lcl-lrm-cmf-940-bore" target="_blank">Float DPS Shim stack tune kit v1</a></li>
+                <li><a href="https://mtbclassicparts.com/en/products/service-set-valving-assy-2018-float-dps-r-c-lcl-lrm-cmf-940-bore" target="_blank">Float DPS Shim stack tune kit v2</a></li>
+                <li><a href="https://tech.ridefox.com/bike/service-procedures/549/2016-2024-float-dps-and-2024-float-sl-rebuild" target="_blank">Float DPS Service procedures</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="left-panel2">
+                <h2>Introduction</h2>
+                    <br>This website is used to provide me overview of FOX Fload DPS 2022 rear shock tunability.
+                    <br>All links available can be used to find what is needed to find tune kit to change settings of damper from Rx Tune to linear.
+                    <br>Rx Tune is default tune provided by Specialized. It has digressive settings which brins very stiff rear at low speeds.
+                    <br>Linear compression tune shoud behave more linear which bring consistent damping during the whole stroke.
+                    <br>Progression is gained from Air chamber volume spacer tune which is by default set by 0.6inch token.
+            </div>
+            <div class="main-content">
+                <h2>FOX Float DPS</h2>
+                <li><a href="https://www.youtube.com/watch?v=9j3FuvHClJI" target="_blank">Float DPS Service procedures</a></li>
+            </div>
+            <div class="main-content">
+                <h2>Damper rebuild guide & service</h2>
+                <li><a href="https://www.youtube.com/watch?v=LAeE_1peTUI" target="_blank">Fox Float DPS Performance Series - service (Damper, Air can, Control knobs)</a></li>
+            </div>
+            <div class="main-content">
+                <h2>Air Chamber volume spacer installation</h2>
+                <li><a href="https://www.youtube.com/watch?v=gqsDVnFmMJg" target="_blank">2018 Fox Float DPS Evol Rear Shock Sleeve Service</a></li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
