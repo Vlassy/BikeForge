@@ -27,21 +27,21 @@
             display: flex;
             flex-direction: row; /* Changed to row layout */
             width: 100%;
+        }
+        .left-panel {
+            background-color: #7a7a7a;
+            width: 12%;
+            padding: 5px;
+        }
         .container {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          height: 100vh; /* Full height */
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
         }
-        .panel {
-          padding: 20px;
-          border: 1px solid #ccc;
-        }
-        .panel1 {
-          background-color: #f8f9fa;
-        }
-        .panel2 {
-          background-color: #e9ecef;
-        }
+        .left-panel2 {
+            background-color: rgb(180, 180, 180);
+            width: 100%; /* Full width for both panels */
+            padding: 5px;
         }
         .main-content {
             background-color: rgb(180, 180, 180);
@@ -55,7 +55,6 @@
     </style>
 </head>
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <header>
         <a href="#"><img src="logo.jfif" alt="Logo"></a>
         <h1><a href="#">BikeForge</a></h1>
@@ -72,7 +71,7 @@
             </ul>
         </div>
         <div class="container">
-            <div class="panel1">
+            <div class="left-panel2">
                 <h2>Introduction</h2>
                     <br>This website is used to provide me overview of FOX Fload DPS 2022 rear shock tunability.
                     <br>All links available can be used to find what is needed to find tune kit to change settings of damper from Rx Tune to linear.
@@ -80,15 +79,15 @@
                     <br>Linear compression tune shoud behave more linear which bring consistent damping during the whole stroke.
                     <br>Progression is gained from Air chamber volume spacer tune which is by default set by 0.6inch token.
             </div>
-            <div class="panel2">
+            <div class="main-content">
                 <h2>FOX Float DPS</h2>
                 <li><a href="https://www.youtube.com/watch?v=9j3FuvHClJI" target="_blank">Float DPS Service procedures</a></li>
             </div>
-            <div class="panel2">
+            <div class="main-content">
                 <h2>Damper rebuild guide & service</h2>
                 <li><a href="https://www.youtube.com/watch?v=LAeE_1peTUI" target="_blank">Fox Float DPS Performance Series - service (Damper, Air can, Control knobs)</a></li>
             </div>
-            <div class="panel2">
+            <div class="main-content">
                 <h2>Air Chamber volume spacer installation</h2>
                 <li><a href="https://www.youtube.com/watch?v=gqsDVnFmMJg" target="_blank">2018 Fox Float DPS Evol Rear Shock Sleeve Service</a></li>
             </div>
